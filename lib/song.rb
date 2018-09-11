@@ -28,9 +28,9 @@ def self.genres
 def self.artists
   @@artists.each do |artist|
     if @@artists.include?(artist)
-      artist.pop
+      @@artist.pop
     else
-      @@artists.pop
+      @@artists << artist
     end 
   end 
 end 
