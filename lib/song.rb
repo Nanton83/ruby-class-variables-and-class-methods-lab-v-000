@@ -19,7 +19,8 @@ def self.count
 end 
 
 def self.genres
-  @@genres
+  @@genres.collect do |genre|
+  end 
   end  
   
 def self.artists
