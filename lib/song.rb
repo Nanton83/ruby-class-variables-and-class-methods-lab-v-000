@@ -30,7 +30,7 @@ def self.artists
     if @@artists.include?(artist)
       artist.pop
     else
-      @@artists << artist 
+      @@artists.pop
     end 
   end 
 end 
