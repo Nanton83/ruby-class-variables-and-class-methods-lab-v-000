@@ -32,6 +32,7 @@ def self.artists
     else
       @@artists << artist 
     end 
+  end 
 end 
 
 def self.genre_count
