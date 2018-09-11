@@ -23,7 +23,7 @@ def self.genres
   end  
   
 def self.artists
-  @@artist
+  @@artists
 end 
 
 def self.genre_count
