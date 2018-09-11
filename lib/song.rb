@@ -26,14 +26,8 @@ def self.genres
   
   
 def self.artists
-  @@artists.each do |artist|
-    if @@artists.include?(artist)
-      @@artists.pop
-    else
-      @@artists << artist
-    end 
-  end 
-end 
+  @@artists.uniq
+end
 
 def self.genre_count
   genre_count = {}
