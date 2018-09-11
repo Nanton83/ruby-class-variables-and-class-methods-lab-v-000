@@ -22,7 +22,8 @@ end
 
 def self.genres
   @@genres.each do |genre|
-    if @@genres
+    if @@genres.include?(genre)
+      
   end  
   
 def self.artists
