@@ -30,7 +30,7 @@ end
 def self.genre_count
   genre_count = {}
   @@genres.collect do |genre|
-    if @genre == genre
+    if genre_count[genre]
       
   end 
 end
