@@ -21,7 +21,8 @@ def self.count
 end 
 
 def self.genres
-  @@genres
+  @@genres.each do |genre|
+    if @@genres
   end  
   
 def self.artists
