@@ -29,6 +29,10 @@ end
 
 def self.genre_count
   genre_count = {}
+  @@genres.collect do |genre|
+    if @genre == genre
+      
+  end 
 end
 
 def self.artist_count
